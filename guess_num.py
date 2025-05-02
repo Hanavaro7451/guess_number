@@ -7,8 +7,8 @@ while True:
     user_num = int(input('Введите число: '))
     if user_num > pc_num:
         print('Ваше число больше загаданного. Попробуйте снова.')
-    if user_num < pc_num:
+    elif user_num < pc_num:
         print('Ваше число меньше загаданного. Попробуйте снова.')
-    if user_num == pc_num:
+    elif user_num == pc_num:
         break
 print('Победа. Вы угадали загаданное число.')
